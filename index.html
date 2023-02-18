@@ -13,17 +13,20 @@
     <!--Owl Css-->
         <link rel="stylesheet" type="text/css" href="css/owl/owl.carousel.min.css">
         <link rel="stylesheet" type="text/css" href="css/owl/owl.theme.default.min.css">
+
+        
 </head>
 <body>
     <header>
         <div class="conteiner">
             <h2 class="logo">ANIMEFLIX</h2>
             <nav>
-                <a href="pagina-inicial.html">Inicio</a>
-                <a href="#">Série</a>
-                <a href="#">Filmes</a>
-                <a href="#">Gameplays</a>
-                <a href="#">Animes</a>
+                <a class="menu" href="index.html">Inicio</a>
+                <a class="menu" href="#anime">Animes</a>
+                <a class="menu" href="#manga">Mangas</a>
+                <button id="toggle-btn" role="button" class="botao2" onclick="toggleBackgroundColor()">
+                    <i class="fas fa-moon fa-2x"></i>
+                </button>                
             </nav>
         </div>
     </header>
@@ -51,7 +54,7 @@
         </div>
     </main>
     <div class="carrosel">
-        <h2 class="divisao">Animes</h2>
+        <h2 id="anime" class="divisao">Animes</h2>
         <div class="owl-carousel owl-theme">
             
             <div class="item"><a href="#"><img class="box-anime" src="img/Arifureta.jpg" alt="Arifureta" srcset=""></a></div>
@@ -77,7 +80,7 @@
             <div class="item"><a href="#"><img class="box-anime" src="img/Sousei.jpg" alt="Sousei no Onmyouji" srcset=""></a></div>
             <div class="item"><a href="#"><img class="box-anime" src="img/Trinity.jpg" alt="Trinity Seven" srcset=""></a></div>
         </div>
-        <h2 class="divisao">Mangas</h2>
+        <h2 id="manga" class="divisao">Mangas</h2>
         <div class="owl-carousel owl-theme">
             
             <div class="item"><a href="#"><img class="box-manga" src="img/manga/BJ Archmage.jpg" alt="BJ Archmage" srcset=""></a></div>
@@ -109,6 +112,7 @@
         <script src="js/owl/jquery.min.js"></script>
         <script src="js/owl/owl.carousel.min.js"></script>
         <script src="js/owl/setup.js"></script>
+        <script src="js/background.js"></script>
 
 </body>
 </html>

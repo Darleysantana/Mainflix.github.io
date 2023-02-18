@@ -27,7 +27,7 @@ header .logo{
 }
 header nav a{
     text-decoration: none;
-    color: #aaa;
+    color: #fd0202;
     margin-right: 15px;
 }
 header nav a:hover{
@@ -57,6 +57,12 @@ div.anime-principal:hover{
     font-size: 56px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+#toggle-btn i {
+    background-color: transparent;
+    color: white;
+}
+
 .botao{
     background-color: rgba(0, 0, 0, 0.4);
     color: seashell;
@@ -73,11 +79,27 @@ div.anime-principal:hover{
     -ms-transition: .7s ease all;
     -o-transition: .7s ease all;
 }
-.botao:hover{
+
+.botao2{
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    padding: 15px 30px;
+    margin-right: 16px;
+    font-size: 12px;
+    cursor: pointer;
+    position: relative;
+    transition: .7s ease all;
+    -webkit-transition: .7s ease all;
+    -moz-transition: .7s ease all;
+    -ms-transition: .7s ease all;
+    -o-transition: .7s ease all;
+}
+
+.botao, .botao2:hover{
     background-color: white;
     color: var(--preto);
 }
-.botao i{
+.botao, .botao2 i{
     margin-right: 5px;
 }
 .conteiner{
