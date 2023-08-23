@@ -1,6 +1,6 @@
 # Mainflix - Anime and Manga Streaming Site
 
-![Mainflix Preview](.\img\preview.png)
+![Mainflix Preview](img/preview.png)
 
 ## Description
 Mainflix is a streaming website designed for anime and manga enthusiasts. It provides a user-friendly interface to browse and watch your favorite anime series and manga collections. This project is built using HTML, CSS, and Javascript.
